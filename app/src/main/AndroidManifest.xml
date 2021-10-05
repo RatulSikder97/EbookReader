@@ -11,7 +11,9 @@
         android:theme="@style/Theme.EbookReader">
         <activity
             android:name=".BookHomeActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.Home"
+            />
         <activity
             android:name=".RegisterActivity"
             android:exported="true"

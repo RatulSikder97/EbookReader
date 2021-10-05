@@ -7,12 +7,12 @@
     tools:context=".BookHomeActivity">
 
     <LinearLayout
+        android:id="@+id/homeToolBar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@drawable/auth_gredient_background"
         android:orientation="horizontal"
         >
-
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -20,7 +20,6 @@
             android:background="@android:color/transparent"
             android:layout_weight="1"
             />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -33,6 +32,100 @@
             android:paddingEnd="15dp"
             />
     </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bookHomeTop"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/homeToolBar"
+        android:background="@drawable/home_book_top_bg"
+        android:orientation="vertical"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        >
+
+        <EditText
+            android:id="@+id/homeSearch"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/book_search_bg"
+            android:drawableStart="@drawable/ic_outline_search_24"
+            android:drawablePadding="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Title, Author, Publisher"
+            android:textSize="18dp"
+            android:textColor="@color/secondary"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_below="@+id/homeSearch"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Arrival"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View All"
+                    android:textColor="@color/secondary"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:gravity="end"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:scrollbars="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dp"
+                    android:layout_height="100dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bookone"
+                        android:contentDescription="TODO" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dp"
+                    android:layout_height="100dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bookone" />
+                </androidx.cardview.widget.CardView>
+
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
 
 
 </RelativeLayout>

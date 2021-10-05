@@ -8,4 +8,5 @@
     <color name="secondary">#ccc</color>
     <color name="secondaryLight">#f5f5f5</color>
     <color name="secondaryDark">#AAA</color>
+    <color name="pinkLight">#f8f3ed</color>
 </resources>
