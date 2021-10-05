@@ -8,7 +8,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".LoginActivity">
+        tools:context=".RegisterActivity">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,6 +20,7 @@
             android:paddingRight="20dp">
 
             <ImageButton
+                android:id="@+id/backToHome"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:background="@android:color/transparent"
@@ -35,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:gravity="center|end"
-                android:text="Forget Your Password?"
+                android:text="Need Some Help?"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold">
@@ -58,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
-                android:text="Let's Get Something"
+                android:text="Getting Started"
                 android:textColor="@android:color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -66,7 +67,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Good to see you back"
+                android:text="Sign Up to Continue"
                 android:textColor="@color/secondaryDark"
                 android:textSize="18sp" />
 
@@ -90,6 +91,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
+                android:autofillHints="username"
+                android:background="@drawable/input_background"
+                android:drawableStart="@drawable/ic_outline_email_24"
+                android:drawablePadding="10dp"
+                android:hint="Email Address"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:inputType="textEmailAddress"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColorHint="@color/secondaryDark" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
                 android:autofillHints="password"
                 android:background="@drawable/input_background"
                 android:drawableStart="@drawable/ic_outline_https_24"
@@ -103,23 +120,12 @@
                 android:paddingEnd="10dp"
                 android:textColorHint="@color/secondaryDark" />
 
-            <com.google.android.material.switchmaterial.SwitchMaterial
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="20dp"
-                android:checked="true"
-                android:text="Remind me next time"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                />
-
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/auth_btn_background"
-                android:text="SIGNIN"
+                android:text="SIGN Up"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -135,16 +141,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Dont' have an account?"
+                    android:text="Already have an account?"
                     android:textColor="@color/secondaryDark"
                     android:textSize="16sp" />
 
 
                 <TextView
-                    android:id="@+id/signupLink"
+                    android:id="@+id/signInLink"
+                    android:clickable="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" SignUp"
+                    android:text=" SignIn"
                     android:textColor="@color/primary"
                     android:textSize="16sp"
                     android:textStyle="bold" />

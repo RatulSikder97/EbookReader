@@ -10,9 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EbookReader">
         <activity
-            android:name=".login"
+            android:name=".RegisterActivity"
+            android:exported="true"
+            android:parentActivityName="com.example.ebookreader.MainActivity"
+            />
+        <activity
+            android:name=".LoginActivity"
             android:exported="true"
             android:theme="@style/Theme.Auth"
+            android:parentActivityName="com.example.ebookreader.MainActivity"
             />
         <activity
             android:name=".MainActivity"
