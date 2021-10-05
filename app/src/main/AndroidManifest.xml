@@ -10,16 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EbookReader">
         <activity
+            android:name=".BookHomeActivity"
+            android:exported="true" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="true"
-            android:parentActivityName="com.example.ebookreader.MainActivity"
-            />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".LoginActivity"
             android:exported="true"
-            android:theme="@style/Theme.Auth"
-            android:parentActivityName="com.example.ebookreader.MainActivity"
-            />
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.Auth" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

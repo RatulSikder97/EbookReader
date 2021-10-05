@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
+import androidx.appcompat.widget.AppCompatButton
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,6 +22,13 @@ class LoginActivity : AppCompatActivity() {
         val backBtn = findViewById<ImageButton>(R.id.backToHome)
         backBtn.setOnClickListener {
             onBackPressed()
+        }
+
+        val signInBtn = findViewById<AppCompatButton>(R.id.signInBtn)
+        signInBtn.setOnClickListener {
+            var intent = Intent(this, BookHomeActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }
