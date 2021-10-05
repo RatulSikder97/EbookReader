@@ -8,6 +8,9 @@
         <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/auth_gredient_background.xml" value="0.2203125" />
         <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.2203125" />
         <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/input_background.xml" value="0.2203125" />
+        <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/thumb.xml" value="0.2203125" />
+        <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/thumblayer.xml" value="0.2203125" />
+        <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/track.xml" value="0.2203125" />
         <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />

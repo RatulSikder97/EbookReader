@@ -15,6 +15,7 @@ class LoginActivity : AppCompatActivity() {
         signUpLink.setOnClickListener {
             var intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
+            finish()
         }
 
         val backBtn = findViewById<ImageButton>(R.id.backToHome)
