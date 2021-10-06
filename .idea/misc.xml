@@ -6,22 +6,16 @@
         <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/auth_btn_background.xml" value="0.2169230769230769" />
         <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/auth_form_container.xml" value="0.2203125" />
         <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/auth_gredient_background.xml" value="0.2203125" />
-        <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/book_search_bg.xml" value="0.2203125" />
-        <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/home_book_top_bg.xml" value="0.10885416666666667" />
         <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.2203125" />
-        <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/ic_outline_menu_24.xml" value="0.2203125" />
-        <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/ic_outline_menu_45.xml" value="0.1125" />
         <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/input_background.xml" value="0.2203125" />
-        <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/thumb.xml" value="0.2203125" />
-        <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/thumblayer.xml" value="0.2203125" />
-        <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/drawable/track.xml" value="0.2203125" />
-        <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/layout/activity_book_home.xml" value="0.25" />
         <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
-        <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/layout/home_app_bar.xml" value="0.20416666666666666" />
-        <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/layout/new_arrival_item.xml" value="0.17777777777777778" />
-        <entry key="..\:/AndroidProject/EbookReader/app/src/main/res/menu/home_appbar_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/my work/Android/EbookReader/app/src/main/res/layout/activity_book_home.xml" value="0.19172932330827067" />
+        <entry key="..\:/my work/Android/EbookReader/app/src/main/res/layout/activity_login.xml" value="0.19895833333333332" />
+        <entry key="..\:/my work/Android/EbookReader/app/src/main/res/layout/activity_register.xml" value="0.20260416666666667" />
+        <entry key="..\:/my work/Android/EbookReader/app/src/main/res/layout/explore_home_item.xml" value="0.1" />
+        <entry key="..\:/my work/Android/EbookReader/app/src/main/res/layout/new_arrival_item.xml" value="0.2653985507246377" />
       </map>
     </option>
   </component>

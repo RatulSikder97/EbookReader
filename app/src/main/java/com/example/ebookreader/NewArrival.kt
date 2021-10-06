@@ -1,5 +1,3 @@
 package com.example.ebookreader
 
-class NewArrival(var imageUrl: String){
-    
-}
+data class NewArrival(var imageUrl: Int)

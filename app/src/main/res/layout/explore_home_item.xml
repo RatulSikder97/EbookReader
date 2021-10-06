@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/explore_home_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_marginBottom="15dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/secondaryLight"
+        >
+        <ImageView
+            android:id="@+id/explore_product_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/bookone" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/explore_book_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Lean Startup"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Author:"
+                    android:textColor="@color/secondaryDark"
+                    android:textSize="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/explore_book_author"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Author"
+                    android:textColor="@color/secondaryDark"
+                    android:layout_marginStart="1dp"
+                    android:textSize="16dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:textColor="@color/homePrice"
+                    android:textSize="16dp"
+                    />
+
+                <TextView
+                    android:id="@+id/explore_book_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13.99"
+                    android:textColor="@color/homePrice"
+                    android:layout_marginStart="1dp"
+                    android:textSize="16dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
